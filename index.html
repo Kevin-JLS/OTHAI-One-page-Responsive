@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/cook.ico" type="image/x-icon">
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nunito&display=swap" rel="stylesheet">
+    <!-- Lien fichier CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>OTHAÏ - Saveurs thaïlandaises</title>
+</head>
+
+<body>
+
+    <!-- ________ HEADER + NAVIGATION ________ -->
+
+    <nav class="nav">      
+        <div class="nav-content">          
+            <img src="assets/images/baguettes.png" alt="logo baguettes chinoises">
+            <p>OTHAÏ</p>
+            <div class="container-line-responsive">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul>
+                <li><a href="#restaurant" class="slide-line">Restaurant</a></li>
+                <li><a href="#specialites" class="slide-line">Spécialités</a></li>
+                <li><a href="#objectifs" class="slide-line">Objectifs</a></li>
+                <li><a href="#avis" class="slide-line">Avis</a></li>
+                <li><a href="#contact" class="slide-line">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Nav bar responsive -->
+
+    <div class="nav-responsive">
+        <div class="btn-responsive"></div>      
+        <ul class="liste-responsive">
+            <li><a href="#restaurant">Restaurant</a></li>
+            <li><a href="#specialites">Spécialités</a></li>
+            <li><a href="#objectifs">Objectifs</a></li>
+            <li><a href="#avis">Avis</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>  
+    </div>
+
+    <!-- HEADER -->
+
+    <header class="home">
+
+        <video autoplay muted loop>
+            <source src="assets/images/home-video.mp4">
+        </video>
+
+        <div class="home-container">
+            <div class="home-container-content">               
+                <h1>Les saveurs thaïlandaises <br><span> OTHAÏ</span></h1>
+                <div class="home-flex-container">
+                    <div class="home-content-left">
+                        <div class="cadre">
+                            <div class="carousel">
+                                <div class="element">" Riz Thaï "</div>
+                                <div class="element">" Pad thaï "</div>
+                                <div class="element">" Nouilles Thaï "</div>
+                                <div class="element">" Salades Thaï "</div>
+                                <div class="element">" Nem's "</div>
+                            </div>
+                        </div>
+                        <a href="#specialites">Découvrez nos plats</a>
+                    </div>
+    
+                    <div class="home-content-right">
+                        <a href="tel:06.30.56.96.85" class="home-phone">06 30 58 96 85</a>
+                        <div class="home-content-right-choice">
+                            <img src="assets/images/check.png" alt="ok"><p>Sur place</p>
+                            <img src="assets/images/check.png" alt="ok"><p>A emporter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <!-- home button -->
+
+        <a href="#restaurant" class="home-content-btn">
+            <img src="assets/images/arrow_down.svg" alt="fleche du bas">
+        </a>
+
+    </header>
+
+
+    <!-- ______________________ MAIN ______________________ -->
+
+    <main class="main">
+        <div class="main-content">
+            
+            <!-- Partie restaurant -->
+            <h2 id="restaurant">Le restaurant</h2>
+
+            <section class="main-restaurant">
+                <img src="assets/images/resto-1.jpg" alt="photo restaurant">
+                <img src="assets/images/resto-2.jpg" alt="photo restaurant">
+                <img src="assets/images/resto-3.jpg" alt="photo restaurant">
+                <img src="assets/images/resto-4.jpg" alt="photo restaurant">
+                <div class="style top-left"></div>
+                <div class="style top-right"></div>
+                <div class="style bottom-left"></div>
+                <div class="style bottom-right"></div>
+                <div class="restaurant-points"></div>
+            </section>
+
+            <!-- Specialites -->
+
+            <h2 id="specialites">Nos spécialités</h2>
+
+            <section class="main-specialites">
+
+                <div class="specialites-card">
+                    <div class="before">
+                        <div class="menu-name">Tenders</div>
+                        <img src="./assets/images/specia-1.jpg" alt="Tenders">
+                    </div>
+                    <div class="behind">
+                        <p>9.50 €</p>
+                    </div>
+                </div>
+
+                <div class="specialites-card">
+                    <div class="before">
+                        <div class="menu-name">Pâtes Thaï</div>
+                        <img src="./assets/images/specia-2.jpg" alt="Pâtes thaï">
+                    </div>
+                    <div class="behind">
+                        <p>10.50 €</p>
+                    </div>
+                </div>
+
+                <div class="specialites-card">
+                    <div class="before">
+                        <div class="menu-name">Nem's</div>
+                        <img class="specialites-img-3" src="./assets/images/specia-3.jpg" alt="Nem's">
+                    </div>
+                    <div class="behind">
+                        <p>8.50 €</p>
+                    </div>
+                </div>
+
+                <div class="specialites-card">
+                    <div class="before">
+                        <div class="menu-name">Riz Thaï</div>
+                        <img src="./assets/images/specia-4.jpg" class="specia-riz" alt="Riz thaï">
+                    </div>
+                    <div class="behind">
+                        <p>10.50 €</p>
+                    </div>
+                </div>
+
+                <!-- Specialites responsive -->
+
+                <div class="specia-responsive">
+                    <div class="menu">
+                        <img src="./assets/images/specia-1.jpg" alt="Tenders">
+                        <p class="menu-name-res">Nos delicieux Tenders</p>
+                        <p class="specia-prix">7,50 €</p>
+                    </div>
+                    <div class="menu">
+                        <img src="./assets/images/specia-2.jpg" alt="Pâtes thaï">
+                        <p class="menu-name-res">Les fameuses pâtes !</p>
+                        <p class="specia-prix">10,50 €</p>
+                    </div>
+                    <div class="menu">
+                        <img src="./assets/images/specia-3.jpg" alt="Nem's">
+                        <p class="menu-name-res">Nems - Hmmm</p>
+                        <p class="specia-prix">8,50 €</p>
+                    </div>
+                    <div class="menu">
+                        <img src="./assets/images/specia-4.jpg" alt="Riz thaï">
+                        <p class="menu-name-res">Le savoureux Riz Thaï</p>
+                        <p class="specia-prix"> 10,50 €</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Nos objectifs -->
+
+            <h2  id="objectifs">Nos objectifs</h2>
+
+            <section class="valeurs">
+                <div class="valeur-content">
+                    <div class="valeur v1"></div>
+                    <p>Nous visons le 100%</p>
+                </div>
+
+                <div class="valeur-content">
+                    <div class="valeur v2"></div>
+                    <p>C'est grâce à vos avis que nous progressons</p>
+                </div>
+
+                <div class="valeur-content">
+                    <div class="valeur v3"></div>
+                    <p>Hygiène et propreté 👍 !</p>
+                </div>
+            </section>
+
+            <!-- Avis -->
+
+            <h2 id="avis">Vos avis</h2>
+
+            <div class="avis-container">
+
+                <div class="questions">
+                    <div class="panneau-visible">
+                        <p class="question-title">Avis</p>
+                        <img src="./assets/images/plus.svg" alt="croix animation">
+                    </div>
+                
+                    <div class="toggle-pannel avis">
+                        <h4><span class="span-toggle-1">2506 </span>avis :</h4>
+                        <img src="assets/images/star.png" alt="étoile jaune">
+                        <img src="assets/images/star.png" alt="étoile jaune">
+                        <img src="assets/images/star.png" alt="étoile jaune">
+                        <img src="assets/images/star.png" alt="étoile jaune">
+                        <img src="assets/images/star.png" alt="étoile jaune">
+                    </div>
+                </div>
+
+                <div class="questions">
+                    <div class="panneau-visible">
+                        <p class="question-title">Commentaires</p>
+                        <img src="assets/images/plus.svg" alt="croix animation">
+                    </div>
+                    <div class="toggle-pannel">
+                        <span class="span-toggle-2">Pierre :</span>
+                        <p>Exellent restaurant ! Je conseille fortement. Service de qualité, peu d'attente, serveurs aimables. Rien à dire, au top !</p>
+                        <span class="span-toggle-2">Marie :</span>
+                        <p>Manger Thaï ? Manger OTHAÏ !</p>
+                        <span class="span-toggle-2">Luc :</span>
+                        <p>Très goutu ! Néanmoins je trouve les prix un peu élevés. J’ai moi-même travaillé dans la restauration gastronomique thaï et je peux vous dire que le riz ça ne coûte pas cher ! </p>
+                    </div>    
+                </div>
+
+
+            <!-- Nous contacter -->
+
+            <h2 id="contact">Nous contacter</h2>
+
+            <section class="section-contact">           
+                    <form class="form-bloc">
+            
+                        <div class="form-groupe">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" required maxlength="16" id="prenom">
+                        </div>
+                        <div class="form-groupe">
+                            <label for="nom">Nom</label>
+                            <input type="text" required maxlength="16" id="nom">
+                        </div>
+                        <div class="form-groupe">
+                            <textarea id="txt" placeholder="Votre message" required></textarea>
+                        </div>
+            
+                        <div class="form-groupe">
+                            <input type="submit" value="ENVOYER" class="button-sub">
+                        </div>
+            
+                    </form>
+            </section>
+        </div>
+    </main>
+
+
+    <!-- ______________________ FOOTER ______________________ -->
+
+    <footer class="footer">
+
+        <section class="footer-content">
+                <div class="social">
+                    <a href="www.facebook.com" class="fb"></a>
+                    <a href="www.twitter.com" class="twitter"></a>
+                    <a href="www.instagram.com" class="instagram"></a>
+                </div>
+                <ul class="list-inline">
+                    <p class="footer-title">OTHAÏ</p>
+                    <div class="list-flex">
+                        <img src="assets/images/position.png" alt="localisation">
+                        <address>10 avenue lafonte, 75000 Paris</address>
+                        <img src="assets/images/phone.png" alt="telephone"><a class="footer-list-link" href="tel:06.30.58.69.85">06 30 58 69 85</a>
+                        <img src="assets/images/email.png" alt="mail" ><a href="mailto:othai_paris_75000@gmail.com" class="footer-list-link">othai_paris_75000@gmail.com</a>
+                    </div>
+                </ul>
+                <p class="copyright">OTHAÏ © 2021</p>
+        </section>
+
+    </footer>
+
+    <!-- Button TOP -->
+    <a href="#top" class="btn-top"></a>
+
+    <!-- Lien JS -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>
